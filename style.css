@@ -54,3 +54,50 @@ form.quiz-box {
     text-align: end;
     color: white;
 } */
+
+.question {
+    margin-bottom: 30px;
+    }
+
+.options {
+    list-style-type: disc;
+    padding-left: 20px;
+    }
+
+.options li {
+    margin-bottom: 8px;
+    }
+
+.answers-container {
+    margin-top: 20px;
+    font-weight: bold;
+    }
+
+
+
+/* .footer{
+    background-color: rgb(6, 176, 6);
+    text-align: end;
+    color: white;
+} */
+footer {
+    background-color: #b6eeb1; /* light green */
+    padding: 20px 40px;
+    display: flex;
+    justify-content: flex-end;
+    }
+
+#submitBtn {
+    background-color: green;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: end;
+    }
+
+#submitBtn:hover {
+    background-color: darkgreen;
+}
