@@ -15,35 +15,45 @@
 <!-- create the quiz form -->
     <div class="quiz-container">
         <form name="quizForm" id="quizForm" class="quiz-box">
-        <div class="question">
-            <!-- insert the question 1 -->
+        <!-- insert the question -->
+            <div class="question">
+                <h3>Question 1</h3>
+            <!-- insert the answer options -->
             <ul class="options">
                 <li>
-                   <label><input type="radio" name="q1">Option 1</input>  
+                   <label><input type="radio" name="q1">Option 1</input><label> 
                 </li>
-                <li> <input type="radio" name="q1">Option 2</input></li>
-                <li> <input type="radio" name="q1">Option 3</input></li>
+                <li><label><input type="radio" name="q1">Option 2</input></label></li>
+                <li><label><input type="radio" name="q1">Option 3</input></label></li>
             </ul>
         </div>
-        <div class="quiz question">Question 2
-        <div class="quiz answers">
-            <ul>
-                <li>
-                   <input type="radio" name="q2">Option 1</input>  
+        <!-- insert question 2 -->
+        <div class="question">
+            <h3>Question 2</h3>
+        <!-- insert the options -->
+            <ul class="options">
+                <li><label>
+                   <input type="radio" name="q2">Option 1</input></label> 
                 </li>
-                <li> <input type="radio" name="q2">Option 2</input></li>
-                <li> <input type="radio" name="q2">Option 3</input></li>
+                <li><label><input type="radio" name="q2">Option 2</input></label></li>
+                <li><label><input type="radio" name="q2">Option 3</input></label></li>
             </ul>
         </div>
-        <div class="quiz question">Question 3
-        <div class="quiz answers">
-            <ul>
-                <li>
+        <div class="question">
+            <h3>Question 3</h3>
+            <ul class="options">
+                <li><label>
                    <input type="radio" name="q3">Option 1</input>  
                 </li>
-                <li> <input type="radio" name="q3">Option 2</input></li>
-                <li> <input type="radio" name="q3">Option 3</input></li>
+                <li><label><input type="radio" name="q3">Option 2</input></label></li>
+                <li><label><input type="radio" name="q3">Option 3</input></label></li>
             </ul>
+            </div>
+            <!-- add answer container-->
+             <div class="answers-container" id="results"> </div>
+             </form>
+             </div>
+             
         </footer>
         <button id="submitBtn">SUBMIT</button>
     </footer>
