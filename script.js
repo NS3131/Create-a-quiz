@@ -6,5 +6,16 @@ function submitAnswers(){
     var correctAnswers = 0;
 }
 
-// let's get user input
+// let's initialize a counter for correct answers
+var correctAnswers = 0;
+
+// position the answers in index array
+// question 1 with correct answer : option 2 (index 1)
+// question 2 with correct answer : option 1 (index 0)
+// question 1 with correct answer : option 3 (index 2)
+
+// the correct answers
+var correctPositions = [1,0,2];
+
+
 
