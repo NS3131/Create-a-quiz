@@ -17,5 +17,17 @@ var correctAnswers = 0;
 // the correct answers
 var correctPositions = [1,0,2];
 
+// use DOM and answer all questions for each question using attributes
+var q1 = document.getElementsByName("q1");
+var q2 = document.getElementsByName("q2");
+var q3 = document.getElementsByName("q3");
+
+
+// loop through each set of options and find which one is checked
+
+for(var i=0;i<q1.length;i++){
+    
+}
+
 
 
