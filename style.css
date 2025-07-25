@@ -1,15 +1,15 @@
-/* body {
-    margin: 0;
-    padding: 0;
-    /* display: flex;
-    justify-content: center; */
-    /* align-items: center; */
-/* to put the container in the center we style 100vh
-    height: 100vh;  */
-    /* background-color: rgb(218, 213, 213); */
+/* *{
+    box-sizing: border-box;it's an option!!!
+} */
     
 
-
+body, html{
+    margin: 0;
+    padding:0;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
+}
 
 ul{
     list-style-type: none;
