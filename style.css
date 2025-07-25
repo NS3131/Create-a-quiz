@@ -1,11 +1,24 @@
-body {
+/* body {
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-/* to put the container in the center we style 100vh */
-    height: 100vh; 
-    background-color: white;
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+/* to put the container in the center we style 100vh
+    height: 100vh;  */
+    /* background-color: rgb(218, 213, 213); */
     
+
+
+
+ul{
+    list-style-type: none;
+}
+
+
+
+.footer{
+    background-color: rgb(6, 176, 6);
+    text-align: end;
+    color: white;
 }
