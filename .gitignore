@@ -1,0 +1,14 @@
+#     <!-- <div class ="quiz-container">
+#         <!-- create another div container for questions-->
+#          <div class="question-container">
+#             <!--  create a title for the question-->
+#               <h3 id="question">Question</h3>
+#               <!-- create a div for the answers choice -->
+#                <div id="answers-button">
+#                </div>
+#          </div>
+#     </div>
+# <!-- add the button using radio button-->
+#  <button id="next-btn" class="btn hide">Next</button>
+#  <div id="result" class="hide"></div>
+#  <button id="restart-btn" class="btn hide">Restart</button> -->
