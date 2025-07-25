@@ -1,6 +1,6 @@
-/* *{
-    box-sizing: border-box;it's an option!!!
-} */
+*{
+    box-sizing: border-box;
+}
     
 
 body, html{
@@ -11,14 +11,46 @@ body, html{
     background-color: #f0f0f0;
 }
 
-ul{
-    list-style-type: none;
+.container{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+header{
+    padding: 20px 40px;
+    font-size: 24 px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.quiz-container{
+    flex:1;
+    /* It will grow to fill any available space in the flex container-
+    flex-shrink: 1 → It will shrink if there isn't enough space
+flex-basis: 0 → 
+It starts with no initial width/height, then grows display: flex;
+    /* align-items:center; */
+}
+form.quiz-box {
+    background-color: #e0e0e0";
+    padding: 20px 40px;
+    margin-left: 40px;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
 }
 
 
+/* ul{
+    list-style-type: none;
+} */
 
-.footer{
+
+
+/* .footer{
     background-color: rgb(6, 176, 6);
     text-align: end;
     color: white;
-}
+} */
