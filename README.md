@@ -1,4 +1,4 @@
-<!-- Project 01 to do: Quiz
+Project 01 to do: Quiz
 
 You have to create your own quiz and style it.
 
@@ -9,4 +9,4 @@ You will have to use :
 DOM events
 JS functions
 CSS Styling
-HTML blocking -->
+HTML blocking 
